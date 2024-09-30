@@ -14,9 +14,11 @@
             navPage.BarBackground = Colors.Yellow;
             navPage.BarTextColor = Colors.Blue;
 
-
+            
             //First page to be displayed
-            MainPage = new TabbedPageDemo();
+            MainPage = new NavigationPage( new StackLayoutDemo());
+           
+           
         }
     }
 }
