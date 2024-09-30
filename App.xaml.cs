@@ -16,7 +16,7 @@
 
 
             //First page to be displayed
-            MainPage = navPage;
+            MainPage = new TabbedPageDemo();
         }
     }
 }
