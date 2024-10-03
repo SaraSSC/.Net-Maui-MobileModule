@@ -16,7 +16,7 @@
 
             
             //First page to be displayed
-            MainPage = new NavigationPage( new FlexLayoutDemo());
+            MainPage = new NavigationPage( new AbsoluteLayoutDemo());
            
            
         }
