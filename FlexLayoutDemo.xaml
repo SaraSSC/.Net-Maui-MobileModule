@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="MAUIApp.FlexLayoutDemo"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Title="FlexLayoutDemo">
+	<FlexLayout
+		AlignItems="Center"
+		Direction="Column"
+		JustifyContent="SpaceEvenly">
+		<Label
+			FontSize="Large"
+			Text="Exemplo de FlexLayout"
+			TextColor="Red" />
+		<Image>
+			<Image.Source>
+				<FileImageSource File="dotnet_bot.pgn" />
+			</Image.Source>
+		</Image>
+		<Button FontSize="Large" Text="Butão sem função" />
+		<Label FontSize="Large" Text="Sara Carvalho - 2024" />
+	</FlexLayout>
+</ContentPage>
